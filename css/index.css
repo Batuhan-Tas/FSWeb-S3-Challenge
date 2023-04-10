@@ -113,15 +113,18 @@ header {
     background-color: rgb(0, 4, 17);
 }
 
+
+
 /* about us section */
 .about {
     width: 100%;
-    height: 75vh;
+    height: 100vh;
     text-align: center;
     background-image: url("../img/staff-cooks.jpg");
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
+    
 }
 
 .about-container {
@@ -131,10 +134,15 @@ header {
     justify-content: center;
     align-items: center;
     background-color: rgb(0, 4, 17, .8);
+    color:rgb(225, 239, 230);
+    line-height: 4rem;
+    
+    
 }
 
 .about h2 {
     width: 100%;
+    padding-top: 10rem;
 }
 
 .about-container .text {
@@ -149,6 +157,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-color: rgb(0, 4, 17);
+    color:rgb(225, 239, 230);
 }
 
 .contact-container {
@@ -186,15 +195,88 @@ header {
 
 .contacts {
     width: 25%;
+    
 }
 
 /* footer section */
 footer {
+    
     width: 100%;
     height: 15vh;
     padding-top: 2.5vh;
+    font-size: 2rem;
+    color:rgb(225, 239, 230);
+    padding: 2%;
+    flex-direction: row;
+    background-color: rgb(0, 4, 17);
+    
+}
+
+footer div{
+    display:inline-flex;
+    line-height: 2rem;
+    vertical-align:top;
+    
+    
+    
+    
+}
+
+footer nav{
+    display: inline-flex;
+    justify-content: space-around;
+    width:50%;
+}
+
+footer p{
+    font-size: 1rem;
+    text-align: right;
+}
+
+footer h4 {
     font-size: 3rem;
 }
+
+
+.container  {
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: rgb(0, 4, 17, .8);
+    color: rgb(225, 239, 230);
+}
+
+.container h1 a{
+    color: rgb(225, 239, 230);
+}
+
+.container nav div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: rgb(225, 239, 230);
+    
+}
+
+.container nav div a{
+    color: rgb(225, 239, 230);
+}
+
+#icons{
+    display: flex;
+    justify-content: center;
+    margin:2rem;
+    gap:5rem;
+    
+}
+
+.gallery{
+    color:rgb(225, 239, 230);
+}
+
+.gallery img{
+    margin:1rem;
+}
+
 
 /* mobile media query */
 @media (max-width: 428px) {
@@ -251,3 +333,4 @@ footer {
         font-size: 2rem;
     }
 }
+
